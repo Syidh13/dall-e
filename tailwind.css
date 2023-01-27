@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'TGAqsaPro';
+    src: url('/layouts/media/fonts/TGAqsaPro-Medium.woff2');
+  }
+  @font-face {
+    font-family: 'TGAqsaPro-regular';
+    src: url('/layouts/media/fonts/TGAqsaPro-Regular.woff2');
+  }
+
+  @font-face {
+    font-family: 'WorkSans-regular';
+    src: url('/layouts/media/fonts/WorkSans-VariableFont_wght.ttf');
+  }
+}
